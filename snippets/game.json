@@ -1,0 +1,28 @@
+{
+    "Create new game widget": {
+        "prefix": "Flame new game widget",
+        "body": [
+            "GameWidget(",
+            "  game: FlameGame()",
+            ")"
+        ],
+        "description": "Create new game widget"
+    },
+    "Create new game": {
+        "prefix": ["Flame new game"],
+        "body": [
+            "class $1 extends FlameGame {",
+            "  @override",
+            "  void render(Canvas canvas) {",
+            "    super.render(canvas);",
+            "  }",
+            "",
+            "  @override",
+            "  void update(double dt) {",
+            "    super.update(dt);",
+            "  }",
+            "}"
+        ],
+        "description": "Create new game"
+    }
+}

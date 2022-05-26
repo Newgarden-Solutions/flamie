@@ -1,0 +1,69 @@
+{
+    "Create new component": {
+        "prefix": ["Flame component"],
+        "body": [
+            "class $1 extends Component {",
+            "  @override",
+            "  Future<void>? onLoad() {",
+            "    return super.onLoad();",
+            "  }",
+            "",
+            "  @override",
+            "  void render(Canvas canvas) {",
+            "    super.render(canvas);",
+            "  }",
+            "",
+            "  @override",
+            "  void update(double dt) {",
+            "    super.update(dt);",
+            "  }",
+            "}"
+        ],
+        "description": "Create new component"
+    },
+    "Create new position component": {
+        "prefix": ["Flame position component"],
+        "body": [
+            "class $1 extends PositionComponent {",
+            "  @override",
+            "  Future<void>? onLoad() {",
+            "    return super.onLoad();",
+            "  }",
+            "",
+            "  @override",
+            "  void render(Canvas canvas) {",
+            "    super.render(canvas);",
+            "  }",
+            "",
+            "  @override",
+            "  void update(double dt) {",
+            "    super.update(dt);",
+            "  }",
+            "}"
+        ],
+        "description": "Create new position component"
+    },
+    "Create new sprite component": {
+        "prefix": ["Flame sprite component"],
+        "body": [
+            "class $1 extends SpriteComponent {",
+            "  @override",
+            "  Future<void>? onLoad() async {",
+            "    sprite = await Sprite.load('$2');",
+            "    return super.onLoad();",
+            "  }",
+            "",
+            "  @override",
+            "  void render(Canvas canvas) {",
+            "    super.render(canvas);",
+            "  }",
+            "",
+            "  @override",
+            "  void update(double dt) {",
+            "    super.update(dt);",
+            "  }",
+            "}"
+        ],
+        "description": "Create new sprite component"
+    }
+}
